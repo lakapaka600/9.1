@@ -9,7 +9,7 @@ float quadrato(float lato) {
 
 int main(void) {
     float latoquadrato;
-    printf("Enter latoquadrato: ");
+    printf("Inserisci la misura di latoquadrato: ");
     scanf("%f", &latoquadrato);
     float area = quadrato(latoquadrato);
     printf("l'area è %f",area);
